@@ -1,7 +1,1 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+Student.create([{ first_name: 'Kassia', last_name: 'Shishkoff', email: 'kassia.shishkoff@gmail.com', phone_number: '(555)555-5555', bio:'I studied journalism at university, but within my first year of school I realized that I didn’t like the way that industry was heading and that it wasn’t a good fit for me professionally. After spending five years bouncing around various communications roles, I decided to take on the challenge of becoming a full-stack web developer. I enrolled in Actualize, and it has been the best decision I’ve ever made! I can’t wait to leverage all that I’ve learned in a full-time position where I can combine my background in writing with my coding skills.', linkedin_url: 'linkedin.com/in/kassiashishkoff', twitter_handle: 'kassia.shishkoff', blog_url: 'wordpress.com/kassia', resume_url: 'indeed.com/kassia', github_url: 'github.com/kassia', photo: 'https://upload.wikimedia.org/wikipedia/en/thumb/4/47/Spongebob-squarepants.svg/666px-Spongebob-squarepants.svg.png'}])
