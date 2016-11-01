@@ -11,3 +11,8 @@
 <p><%= @student.resume_url %></p>
 <p><%= @student.github_url %></p>
 <p><%= @student.twitter_handle %></p>
+
+<h4>Twitter Feed</h4>
+<% @last_tweets.each do |tweet| %></p>
+  <p>@<%= @handle.screen_name %> - <%= tweet.text %></p>
+<% end %>

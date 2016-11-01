@@ -16,9 +16,10 @@ gem 'coffee-rails', '~> 4.2'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 gem 'unirest'
-gem 'faker'
+gem 'figaro'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
+gem 'twitter'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
 gem 'font-awesome-rails'
